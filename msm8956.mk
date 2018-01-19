@@ -127,6 +127,10 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     SnapdragonCamera
 
+# Camera-face detection
+PRODUCT_PACKAGES += \
+   com.qualcomm.qti.camera
+
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
     libcnefeatureconfig
