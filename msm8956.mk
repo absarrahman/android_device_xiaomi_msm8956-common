@@ -499,6 +499,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.secure=0 \
     ro.debuggable=1
 
+# Cast
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.debug.wfd.enable=1 \
+	ro.hdmi.enable=true \
+	ro.hdmi.mirror.enable=true \
+	persist.sys.wfd.virtual=0
+
 # ANGLE
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.gfx.angle.supported=true
