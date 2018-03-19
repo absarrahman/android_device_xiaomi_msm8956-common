@@ -23,8 +23,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/xiaomi/msm8956-common/msm8956-common-vendor.mk)
 
-#$(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
-
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
@@ -126,7 +124,7 @@ PRODUCT_PACKAGES += \
     libmm-qcamera \
     camera.device@1.0-impl \
     android.hardware.camera.provider@2.4-impl \
-    SnapdragonCamera
+    Snap
 
 # Camera-face detection
 PRODUCT_PACKAGES += \
