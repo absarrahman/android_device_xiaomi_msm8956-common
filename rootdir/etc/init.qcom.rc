@@ -310,6 +310,9 @@ on post-fs-data
     mkdir /data/vendor/ipa 0770 radio radio
     chmod 0770 /data/vendor/ipa
 
+    # Make WCNSS_qcom_cfg.ini available in /data/vendor
+    symlink /data/misc/wifi/WCNSS_qcom_cfg.ini /data/vendor/wifi/WCNSS_qcom_cfg.ini
+
     # Create the directories used by CnE subsystem
     mkdir /data/connectivity 0771 radio radio
     chown radio radio /data/connectivity
