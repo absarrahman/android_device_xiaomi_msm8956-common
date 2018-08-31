@@ -104,6 +104,8 @@ QCOM_BT_USE_SMD_TTY := true
 BOARD_QTI_CAMERA_32BIT_ONLY := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 TARGET_TS_MAKEUP := true
+TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
+        /system/bin/mm-qcamera-daemon=23
 
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
@@ -125,7 +127,6 @@ ifeq ($(HOST_OS),linux)
   endif
 endif
 PRODUCT_DEXPREOPT_SPEED_APPS += SystemUI
-
 
 # Display
 BOARD_USES_ADRENO := true
