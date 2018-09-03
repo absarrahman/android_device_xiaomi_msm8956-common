@@ -493,6 +493,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.gfx.angle.supported=true
 
+# Google Assistant
+PRODUCT_PRODUCT_PROPERTIES += \
+   ro.opa.eligible_device=true
+
 # QC framework value-adds
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.va_aosp.support=1
