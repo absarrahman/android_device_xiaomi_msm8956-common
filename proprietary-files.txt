@@ -43,6 +43,10 @@ vendor/lib64/libaudcal.so
 vendor/lib64/libaudioalsa.so
 vendor/lib64/libhwdaphal.so
 
+# Audiosphere
+lib/soundfx/libasphere.so
+lib64/soundfx/libasphere.so
+
 # Bluetooth - QTI Stack
 vendor/bin/btnvtool|062b5261293fe12ffe3a5794f86df3266086babf
 vendor/bin/wcnss_filter
