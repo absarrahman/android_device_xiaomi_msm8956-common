@@ -171,6 +171,10 @@ vendor/lib64/vendor.qti.latency@2.0.so|68fd46a6f26e2e101a6ecb0c40643fd5e137d716
 framework/vendor.qti.data.factory-V1.0-java.jar|2fd093c0589fff10de82440766cfc36a14ab2898
 framework/vendor.qti.hardware.data.qmi-V1.0-java.jar|07b5b9c4f43ed79a5886b1d7033987bed7750a59
 
+# Dirac - from Xiaomi
+vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
+vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
+vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
 
 # DPM - from Nokia 7 Plus Onyx_00WW-user 9 PPR1.180610.009 00WW_3_190 release-keys
 bin/dpmd|985cdaedd7524abb646535954f860db24893ff20
