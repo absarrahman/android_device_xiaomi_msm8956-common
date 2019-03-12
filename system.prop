@@ -144,6 +144,9 @@ persist.radio.sw_mbn_update=0
 persist.data.qmi.adb_logmask=0
 persist.radio.aosp_usr_pref_sel=true
 
+# Storage
+ro.storaged.event.interval=999999
+
 # TCP
 net.tcp.2g_init_rwnd=10
 
