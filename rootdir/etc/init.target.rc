@@ -158,3 +158,6 @@ on property:init.svc.vendor.per_mgr=running
 
 on property:sys.powerctl=*
     stop vendor.per_proxy
+
+# default country code
+    setprop ro.boot.wificountrycode 00
