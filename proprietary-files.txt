@@ -84,6 +84,9 @@ vendor/lib/libtrueportrait.so|b8e11c098bd859aae6c535cdb87e3e36f6b1c6ef
 vendor/lib/liboptizoom.so|1e92993743636c045438f1f15c07c1e835d9ca46
 
 
+# Core ctl
+lib/modules/core_ctl.ko
+
 # Charger
 vendor/bin/hvdcp_opti
 
