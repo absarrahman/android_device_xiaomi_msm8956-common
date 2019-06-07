@@ -162,3 +162,9 @@ on property:sys.powerctl=*
 # default country code
     setprop ro.boot.wificountrycode 00
 
+# CPU energy defaults per frequency
+service vendor.energy-awareness /system/vendor/bin/energy-awareness
+    class main
+    user root
+    group system
+    oneshot
