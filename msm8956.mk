@@ -19,6 +19,10 @@
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/Adarsh-MR.txt:$(TARGET_COPY_OUT_VENDOR)/etc/Adarsh-MR.txt
 
+# APEX
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/ld.config.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/swcodec/ld.config.txt
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
