@@ -492,6 +492,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
 
 
+# ANGLE
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.gfx.angle.supported=true
+
 # QC framework value-adds
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.va_aosp.support=1
