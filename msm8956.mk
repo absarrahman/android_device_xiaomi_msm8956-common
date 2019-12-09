@@ -88,6 +88,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     XiaomiParts
 
+# Doze mode
+PRODUCT_PACKAGES += \
+    ZukDoze
 
 # Audio
 PRODUCT_PACKAGES += \
