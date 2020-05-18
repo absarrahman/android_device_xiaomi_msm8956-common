@@ -205,6 +205,8 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.0 \
     vendor.display.config@1.0_vendor
 
+TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x2000U | 0x02000000U
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
